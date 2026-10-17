@@ -102,7 +102,7 @@ class Arvorebinaria {
 }
 
 
-public class Main {
+public class RA2 {
 
     public static void main(String[] args) {
         Arvorebinaria arvore = new Arvorebinaria();
