@@ -97,15 +97,6 @@ class Arvorebinaria {
         return resultado;
     }
 
-    public void emOrdem(Node atual) {
-        if (atual != null) {
-            emOrdem(atual.getEsquerda());
-            if (atual.getLetra() != null) {
-                System.out.print(atual.getLetra() + " ");
-            }
-            emOrdem(atual.getDireita());
-        }
-    }
 
     public void preOrdem(Node atual) {
         if (atual != null) {
