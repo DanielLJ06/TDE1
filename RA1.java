@@ -80,10 +80,16 @@ class Fila {
         }
     }
     public static int Primeiro(Fila x){
+          if (Vazia(x)) {
+            System.out.print("Fila vazia");
+    }
         return x.dados[x.primeiro];
     }
 
     public static int Ultimo(Fila x){
+         if (Vazia(x)) {
+            System.out.print("Fila vazia");
+    }
         return x.dados[x.ultimo];
     }
 
