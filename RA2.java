@@ -117,10 +117,7 @@ class Arvorebinaria {
         }
     }
 
-    public void imprimirEmOrdem() {
-        emOrdem(raiz);
-        System.out.println();
-    }
+ 
 
     public void imprimirPreOrdem() {
         preOrdem(raiz);
