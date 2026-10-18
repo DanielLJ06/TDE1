@@ -108,8 +108,6 @@ class Arvorebinaria {
         }
     }
 
- 
-
     public void imprimirPreOrdem() {
         preOrdem(raiz);
         System.out.println();
